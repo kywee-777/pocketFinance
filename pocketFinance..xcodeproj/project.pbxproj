@@ -11,6 +11,12 @@
 		137AC18B2A3BE3B900B1E611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC18A2A3BE3B900B1E611 /* ContentView.swift */; };
 		137AC18D2A3BE3BA00B1E611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137AC18C2A3BE3BA00B1E611 /* Assets.xcassets */; };
 		137AC1902A3BE3BA00B1E611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137AC18F2A3BE3BA00B1E611 /* Preview Assets.xcassets */; };
+		137AC1972A3BE3EB00B1E611 /* openingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1962A3BE3EB00B1E611 /* openingView.swift */; };
+		137AC1992A3BE3F600B1E611 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1982A3BE3F600B1E611 /* secondView.swift */; };
+		137AC19B2A3BE4A400B1E611 /* finLiteracyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC19A2A3BE4A400B1E611 /* finLiteracyView.swift */; };
+		137AC19D2A3BE4C600B1E611 /* dailyQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC19C2A3BE4C600B1E611 /* dailyQuizView.swift */; };
+		137AC19F2A3BE4D200B1E611 /* creditVsDebitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC19E2A3BE4D200B1E611 /* creditVsDebitView.swift */; };
+		137AC1A12A3BE4DF00B1E611 /* financeBasics101View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1A02A3BE4DF00B1E611 /* financeBasics101View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		137AC18A2A3BE3B900B1E611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		137AC18C2A3BE3BA00B1E611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137AC18F2A3BE3BA00B1E611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		137AC1962A3BE3EB00B1E611 /* openingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openingView.swift; sourceTree = "<group>"; };
+		137AC1982A3BE3F600B1E611 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		137AC19A2A3BE4A400B1E611 /* finLiteracyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finLiteracyView.swift; sourceTree = "<group>"; };
+		137AC19C2A3BE4C600B1E611 /* dailyQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyQuizView.swift; sourceTree = "<group>"; };
+		137AC19E2A3BE4D200B1E611 /* creditVsDebitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creditVsDebitView.swift; sourceTree = "<group>"; };
+		137AC1A02A3BE4DF00B1E611 /* financeBasics101View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeBasics101View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				137AC1882A3BE3B900B1E611 /* pocketFinance_App.swift */,
+				137AC19A2A3BE4A400B1E611 /* finLiteracyView.swift */,
+				137AC19C2A3BE4C600B1E611 /* dailyQuizView.swift */,
+				137AC19E2A3BE4D200B1E611 /* creditVsDebitView.swift */,
+				137AC1A02A3BE4DF00B1E611 /* financeBasics101View.swift */,
 				137AC18A2A3BE3B900B1E611 /* ContentView.swift */,
+				137AC1962A3BE3EB00B1E611 /* openingView.swift */,
+				137AC1982A3BE3F600B1E611 /* secondView.swift */,
 				137AC18C2A3BE3BA00B1E611 /* Assets.xcassets */,
 				137AC18E2A3BE3BA00B1E611 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137AC19B2A3BE4A400B1E611 /* finLiteracyView.swift in Sources */,
+				137AC1972A3BE3EB00B1E611 /* openingView.swift in Sources */,
 				137AC18B2A3BE3B900B1E611 /* ContentView.swift in Sources */,
+				137AC1A12A3BE4DF00B1E611 /* financeBasics101View.swift in Sources */,
+				137AC19D2A3BE4C600B1E611 /* dailyQuizView.swift in Sources */,
+				137AC1992A3BE3F600B1E611 /* secondView.swift in Sources */,
+				137AC19F2A3BE4D200B1E611 /* creditVsDebitView.swift in Sources */,
 				137AC1892A3BE3B900B1E611 /* pocketFinance_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
