@@ -17,6 +17,15 @@
 		137AC19D2A3BE4C600B1E611 /* dailyQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC19C2A3BE4C600B1E611 /* dailyQuizView.swift */; };
 		137AC19F2A3BE4D200B1E611 /* creditVsDebitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC19E2A3BE4D200B1E611 /* creditVsDebitView.swift */; };
 		137AC1A12A3BE4DF00B1E611 /* financeBasics101View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1A02A3BE4DF00B1E611 /* financeBasics101View.swift */; };
+		137AC1A32A3C015000B1E611 /* firstJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1A22A3C015000B1E611 /* firstJobView.swift */; };
+		137AC1A52A3C0B7D00B1E611 /* loansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1A42A3C0B7D00B1E611 /* loansView.swift */; };
+		137AC1A72A3C11CE00B1E611 /* subscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1A62A3C11CE00B1E611 /* subscriptionsView.swift */; };
+		137AC1A92A3C11F100B1E611 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1A82A3C11F100B1E611 /* Persistence.swift */; };
+		137AC1AB2A3C126200B1E611 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1AA2A3C126200B1E611 /* food.swift */; };
+		137AC1AD2A3C126E00B1E611 /* entertainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1AC2A3C126E00B1E611 /* entertainment.swift */; };
+		137AC1AF2A3C127400B1E611 /* clothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1AE2A3C127400B1E611 /* clothes.swift */; };
+		137AC1B12A3C127A00B1E611 /* travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1B02A3C127A00B1E611 /* travel.swift */; };
+		137AC1B42A3C140C00B1E611 /* pocketFinance..xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1B22A3C140C00B1E611 /* pocketFinance..xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +40,15 @@
 		137AC19C2A3BE4C600B1E611 /* dailyQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyQuizView.swift; sourceTree = "<group>"; };
 		137AC19E2A3BE4D200B1E611 /* creditVsDebitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creditVsDebitView.swift; sourceTree = "<group>"; };
 		137AC1A02A3BE4DF00B1E611 /* financeBasics101View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financeBasics101View.swift; sourceTree = "<group>"; };
+		137AC1A22A3C015000B1E611 /* firstJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstJobView.swift; sourceTree = "<group>"; };
+		137AC1A42A3C0B7D00B1E611 /* loansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loansView.swift; sourceTree = "<group>"; };
+		137AC1A62A3C11CE00B1E611 /* subscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscriptionsView.swift; sourceTree = "<group>"; };
+		137AC1A82A3C11F100B1E611 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		137AC1AA2A3C126200B1E611 /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		137AC1AC2A3C126E00B1E611 /* entertainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entertainment.swift; sourceTree = "<group>"; };
+		137AC1AE2A3C127400B1E611 /* clothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothes.swift; sourceTree = "<group>"; };
+		137AC1B02A3C127A00B1E611 /* travel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel.swift; sourceTree = "<group>"; };
+		137AC1B32A3C140C00B1E611 /* pocketFinance..xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pocketFinance..xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,14 @@
 			children = (
 				137AC1882A3BE3B900B1E611 /* pocketFinance_App.swift */,
 				137AC19A2A3BE4A400B1E611 /* finLiteracyView.swift */,
+				137AC1A22A3C015000B1E611 /* firstJobView.swift */,
+				137AC1A42A3C0B7D00B1E611 /* loansView.swift */,
+				137AC1A62A3C11CE00B1E611 /* subscriptionsView.swift */,
+				137AC1AA2A3C126200B1E611 /* food.swift */,
+				137AC1AC2A3C126E00B1E611 /* entertainment.swift */,
+				137AC1AE2A3C127400B1E611 /* clothes.swift */,
+				137AC1B02A3C127A00B1E611 /* travel.swift */,
+				137AC1A82A3C11F100B1E611 /* Persistence.swift */,
 				137AC19C2A3BE4C600B1E611 /* dailyQuizView.swift */,
 				137AC19E2A3BE4D200B1E611 /* creditVsDebitView.swift */,
 				137AC1A02A3BE4DF00B1E611 /* financeBasics101View.swift */,
@@ -73,6 +99,7 @@
 				137AC1982A3BE3F600B1E611 /* secondView.swift */,
 				137AC18C2A3BE3BA00B1E611 /* Assets.xcassets */,
 				137AC18E2A3BE3BA00B1E611 /* Preview Content */,
+				137AC1B22A3C140C00B1E611 /* pocketFinance..xcdatamodeld */,
 			);
 			path = pocketFinance.;
 			sourceTree = "<group>";
@@ -155,13 +182,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137AC1A52A3C0B7D00B1E611 /* loansView.swift in Sources */,
 				137AC19B2A3BE4A400B1E611 /* finLiteracyView.swift in Sources */,
+				137AC1B42A3C140C00B1E611 /* pocketFinance..xcdatamodeld in Sources */,
 				137AC1972A3BE3EB00B1E611 /* openingView.swift in Sources */,
+				137AC1A72A3C11CE00B1E611 /* subscriptionsView.swift in Sources */,
 				137AC18B2A3BE3B900B1E611 /* ContentView.swift in Sources */,
+				137AC1B12A3C127A00B1E611 /* travel.swift in Sources */,
+				137AC1AF2A3C127400B1E611 /* clothes.swift in Sources */,
 				137AC1A12A3BE4DF00B1E611 /* financeBasics101View.swift in Sources */,
+				137AC1A32A3C015000B1E611 /* firstJobView.swift in Sources */,
 				137AC19D2A3BE4C600B1E611 /* dailyQuizView.swift in Sources */,
 				137AC1992A3BE3F600B1E611 /* secondView.swift in Sources */,
+				137AC1AB2A3C126200B1E611 /* food.swift in Sources */,
+				137AC1A92A3C11F100B1E611 /* Persistence.swift in Sources */,
 				137AC19F2A3BE4D200B1E611 /* creditVsDebitView.swift in Sources */,
+				137AC1AD2A3C126E00B1E611 /* entertainment.swift in Sources */,
 				137AC1892A3BE3B900B1E611 /* pocketFinance_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +399,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		137AC1B22A3C140C00B1E611 /* pocketFinance..xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				137AC1B32A3C140C00B1E611 /* pocketFinance..xcdatamodel */,
+			);
+			currentVersion = 137AC1B32A3C140C00B1E611 /* pocketFinance..xcdatamodel */;
+			path = pocketFinance..xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 137AC17D2A3BE3B900B1E611 /* Project object */;
 }

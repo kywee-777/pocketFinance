@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct pocketFinance_App: App {
+    let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
             OpeningView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

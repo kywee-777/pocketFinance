@@ -69,7 +69,7 @@ struct finLiteracyView: View {
                             .buttonStyle(.borderedProminent)
                             .frame(maxWidth: .infinity, alignment: .center)
                         
-                        NavigationLink(destination:dailyQuizView()
+                        NavigationLink(destination:firstJobView()
                             .font(.title)
                             .multilineTextAlignment(.center)){
                                 Text("Your First Job- Now What Do I Do?")
@@ -105,14 +105,14 @@ struct finLiteracyView: View {
                                         .frame(width:100)
                                 }
 
-                                NavigationLink(destination: creditVsDebitView()) {
+                                NavigationLink(destination: subscriptionsView()) {
                                     Image("subscriptIcon2")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
                                         .frame(width:100)
                                 }
                                 
-                                NavigationLink(destination: creditVsDebitView()) {
+                                NavigationLink(destination: finLiteracyView()) {
                                     Image("literacyIcon2")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
@@ -126,71 +126,7 @@ struct finLiteracyView: View {
                             .shadow(radius: 20))
                         .padding()
                     
-                    
-                    
-                    //                VStack(spacing: 4.0) {
-                    //                    HStack{
-                    //                        Text("Financial Literacy")
-                    //                            .font(.title)
-                    //                            .fontWeight(.bold)
-                    //                            .foregroundColor(Color.white)
-                    //                        Image(systemName: "lightbulb")
-                    //                            .imageScale(.large)
-                    //                            .foregroundColor(Color.white)
-                    //                    }
-                    //
-                    //                    NavigationLink(destination:dailyQuizView()
-                    //                        .font(.title)
-                    //                        .multilineTextAlignment(.center)
-                    //                    ){
-                    //                            Text("Daily Quiz")
-                    //                    }   .tint(Color("lightGreen"))
-                    //                        .buttonStyle(.borderedProminent)
-                    //
-                    //                    Image("pixelPond")
-                    //                        .resizable(resizingMode: .stretch)
-                    //                        .aspectRatio(contentMode: .fit)
-                    //                    Text("")
-                    //
-                    //                    Text("Categories to Learn From")
-                    //                        .fontWeight(.bold)
-                    //                        .foregroundColor(Color.white)
-                    //                        .font(.title2)
-                    //
-                    //
-                    //                    NavigationLink(destination:financeBasics101View()
-                    //                        .font(.title)
-                    //                        .multilineTextAlignment(.center)
-                    //
-                    //                    ){
-                    //                            Text("Banks & Bank Accounts: What are they?")
-                    //                    } .tint(Color("myGreen"))
-                    //                        .buttonStyle(.borderedProminent)
-                    //
-                    //
-                    //                    NavigationLink(destination:financeBasics101View()
-                    //                        .font(.title)
-                    //                        .multilineTextAlignment(.center)){
-                    //                            Text("Credit vs. Debit: Which is better for you?")
-                    //                        } .tint(Color("myGreen"))
-                    //                        .buttonStyle(.borderedProminent)
-                    //
-                    //                    NavigationLink(destination:dailyQuizView()
-                    //                        .font(.title)
-                    //                        .multilineTextAlignment(.center)){
-                    //                            Text("Your First Job- Now What Do I Do?")
-                    //                        } .tint(Color("myGreen"))
-                    //                        .buttonStyle(.borderedProminent)
-                    //
-                    //                    NavigationLink(destination:dailyQuizView()
-                    //                        .font(.title)
-                    //                        .multilineTextAlignment(.center)){
-                    //                            Text("Loans: Fixed-Rate VS. Variable Rates")
-                    //                        } .tint(Color("myGreen"))
-                    //                        .buttonStyle(.borderedProminent)
-                    //
-                    //                }
-                }
+                } .navigationBarHidden(true)
                 
             }
         }
