@@ -11,8 +11,18 @@ struct travel: View {
     @Environment(\.openURL) var openURL
     var body: some View {
         ZStack{
+            LinearGradient(colors: [Color("myGreen"), Color("sage")], startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea()
             HStack{
                 VStack{
+                    HStack{
+                        Text("Subscriptions\n Travel")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color("myGreen"))
+                            .multilineTextAlignment(.center)
+
+                    }
                     HStack{
                         Image("expedia")
                             .resizable()
@@ -44,7 +54,11 @@ struct travel: View {
                                 .font(.caption)
                         }
                     }
-                }
+                } .padding(.all, 30.0)
+                    .background(Rectangle() .foregroundColor(.white)
+                        .cornerRadius(20)
+                        .shadow(radius: 20))
+                    .padding()
             }
         }
     }

@@ -33,7 +33,7 @@ struct secondView: View {
                     Text("")
                     
                     HStack{
-                        NavigationLink(destination: ContentView()) {
+                        NavigationLink(destination: budgetView()) {
                             Image("budgetIcon2")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)

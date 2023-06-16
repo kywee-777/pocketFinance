@@ -53,13 +53,13 @@ struct loansView: View {
                             .padding(.horizontal, 15)
                             .foregroundColor(Color("myGreen"))
                         
-                        Text("  Loans are made up of four components: \n\n• Principal: the original amount of money being borrowed \n• Loan Term: amount of time the borrower has to repay the loan\n • Interest Rate: rate the amount of money increases, usually by year\n• Loan Payments: an amount of money that must be paid every month or week in order to satisfy the terms of the loan")
+                        Text("  Loans are made up of four components: \n\n• Principal: the original amount of money being borrowed \n• Loan Term: amount of time the borrower has to repay the loan\n • Interest Rate: rate the amount of money increases, usually by year\n• Loan Payments: an amount of money that must be paid every month or week in order to satisfy the terms of the loan.")
                             .font(.body)
                             .multilineTextAlignment(.leading)
                             .padding(.horizontal, 15)
                             .foregroundColor(Color("myGreen"))
                         
-                        Text("The Loan Lifetime\n")
+                        Text("\nThe Loan Lifetime\n")
                             .font(.title3)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.center)

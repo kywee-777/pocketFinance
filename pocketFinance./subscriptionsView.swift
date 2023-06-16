@@ -26,38 +26,79 @@ struct subscriptionsView: View {
     
     var body: some View {
         NavigationStack{
-            ZStack{
-                LinearGradient(colors: [Color("myGreen"), Color("sage")], startPoint: .top, endPoint: .bottom)
-                    .ignoresSafeArea()
-                NavigationView {
-                    List {
-                        Text("SUBSCRIPTIONS")
-                            .font(.largeTitle)
-                            .multilineTextAlignment(.center)
-                            .bold()
+            NavigationView {
+                    ZStack{
+                    LinearGradient(colors: [Color("myGreen"), Color("sage")], startPoint: .top, endPoint: .bottom)
+                        .ignoresSafeArea()
+                    VStack{
+                        Group{
+                            Text("Subscriptions")
+                                .multilineTextAlignment(.center)
+                                .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color("myGreen"))
+                                .padding()
+                            Text("You have currently spent $517.93 this month.")
+                                .multilineTextAlignment(.center)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color("teal"))
+                        } .padding()
+                            .background(Rectangle() .foregroundColor(.white)
+                                .cornerRadius(20)
+                                .shadow(radius: 20))
                             .padding()
-                        Text("You have currently spent $517.93 this month.")
-                            .multilineTextAlignment(.center)
                         
-                        
-                        Section(header: Text("Spendings")){
-                            ForEach(Array(subscriptionText.keys), id: \.self) { key in
-                                
-                                NavigationLink(key, destination:  subscripts[key]
-                                               //
-                                               //
-                                               //                            .onDelete(perform: deleteItems)
-                                )}
+                        List {
+                            
+                            
+                            Section(header: Text("Spendings")){
+                                ForEach(Array(subscriptionText.keys), id: \.self) { key in
+                                    
+                                    NavigationLink(key, destination:  subscripts[key]
+                                                   //
+                                                   //
+                                                   //                            .onDelete(perform: deleteItems)
+                                    )}
+                            }
+                            
                         }
                     }
-                    Text("Select an item")
+                    .scrollContentBackground(.hidden)
                 }
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
+            NavigationStack {
+                HStack {
+                    
                 }
-            }
+                .toolbar {
+                    ToolbarItemGroup(placement: .status) {
+                        NavigationLink(destination: budgetView()) {
+                            Image("budgetIcon2")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width:100)
+                        }
+
+                        NavigationLink(destination: subscriptionsView()) {
+                            Image("subscriptIcon2")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width:100)
+                        }
+                        
+                        NavigationLink(destination: finLiteracyView()) {
+                            Image("literacyIcon2")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width:100)
+                        }
+                    }
+                }
+            } .padding(-1.0)
+                .background(Rectangle() .foregroundColor(.white)
+                    .cornerRadius(20)
+                    .shadow(radius: 20))
+                .navigationBarHidden(true)
         }
         }
         enum subscripts {

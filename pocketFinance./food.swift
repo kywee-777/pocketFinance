@@ -11,8 +11,19 @@ struct food: View {
     @Environment(\.openURL) var openURL
     var body: some View {
         ZStack{
+            LinearGradient(colors: [Color("myGreen"), Color("sage")], startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea()
             HStack {
+                
                 VStack{
+                    HStack{
+                        Text("Subscriptions \nFood")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color("myGreen"))
+                            .multilineTextAlignment(.center)
+
+                    }
                     HStack{
                         Image("starbucks")
                             .resizable()
@@ -62,7 +73,11 @@ struct food: View {
                         //                        .font(.caption)
                         //                }
                     }
-                }
+                } .padding()
+                    .background(Rectangle() .foregroundColor(.white)
+                        .cornerRadius(20)
+                        .shadow(radius: 20))
+                    .padding()
             }
         }
     }

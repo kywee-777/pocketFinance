@@ -26,6 +26,7 @@
 		137AC1AF2A3C127400B1E611 /* clothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1AE2A3C127400B1E611 /* clothes.swift */; };
 		137AC1B12A3C127A00B1E611 /* travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1B02A3C127A00B1E611 /* travel.swift */; };
 		137AC1B42A3C140C00B1E611 /* pocketFinance..xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 137AC1B22A3C140C00B1E611 /* pocketFinance..xcdatamodeld */; };
+		13A6C0EC2A3CABDD002A0B0C /* budgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6C0EB2A3CABDD002A0B0C /* budgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		137AC1AE2A3C127400B1E611 /* clothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothes.swift; sourceTree = "<group>"; };
 		137AC1B02A3C127A00B1E611 /* travel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel.swift; sourceTree = "<group>"; };
 		137AC1B32A3C140C00B1E611 /* pocketFinance..xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pocketFinance..xcdatamodel; sourceTree = "<group>"; };
+		13A6C0EB2A3CABDD002A0B0C /* budgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				137AC1AE2A3C127400B1E611 /* clothes.swift */,
 				137AC1B02A3C127A00B1E611 /* travel.swift */,
 				137AC1A82A3C11F100B1E611 /* Persistence.swift */,
+				13A6C0EB2A3CABDD002A0B0C /* budgetView.swift */,
 				137AC19C2A3BE4C600B1E611 /* dailyQuizView.swift */,
 				137AC19E2A3BE4D200B1E611 /* creditVsDebitView.swift */,
 				137AC1A02A3BE4DF00B1E611 /* financeBasics101View.swift */,
@@ -199,6 +202,7 @@
 				137AC19F2A3BE4D200B1E611 /* creditVsDebitView.swift in Sources */,
 				137AC1AD2A3C126E00B1E611 /* entertainment.swift in Sources */,
 				137AC1892A3BE3B900B1E611 /* pocketFinance_App.swift in Sources */,
+				13A6C0EC2A3CABDD002A0B0C /* budgetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

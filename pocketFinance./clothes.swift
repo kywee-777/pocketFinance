@@ -11,24 +11,35 @@ struct clothes: View {
     @Environment(\.openURL) var openURL
     var body: some View {
         ZStack{
+            LinearGradient(colors: [Color("myGreen"), Color("sage")], startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea()
             HStack{
                 VStack{
+                    HStack{
+                        Text("Subscriptions\n Clothes")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color("myGreen"))
+                            .multilineTextAlignment(.center)
+
+                    }
                     HStack{
                         Image("h&m")
                             .resizable()
                             .aspectRatio(contentMode:.fit)
-                            .frame(width:180)
+                            .frame(width:110)
                         VStack{
                             Button("H&M") {
                                 openURL(URL(string: "https://www2.hm.com/en_us/index.html")!)
                             }
-                            .padding(.leading, -25.0)
+                            .padding(.leading, -21.0)
                             Text("$6.99 last charged \n on June 13th")
                                 .multilineTextAlignment(.center)
                                 .padding(.leading, -25.0)
                                 .font(.caption)
                         }
-                    }
+                    }  .padding(.horizontal, 10.0)
+                    
                     HStack{
                         Image("shein")
                             .resizable()
@@ -44,7 +55,12 @@ struct clothes: View {
                                 .font(.caption)
                         }
                     }
-                }
+                    .padding(.horizontal, 10.0)
+                } .padding(.all, 30.0)
+                    .background(Rectangle() .foregroundColor(.white)
+                        .cornerRadius(20)
+                        .shadow(radius: 20))
+                    .padding()
             }
         }
     }

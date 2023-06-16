@@ -77,7 +77,7 @@ struct finLiteracyView: View {
                             .buttonStyle(.borderedProminent)
                             .frame(maxWidth: .infinity, alignment: .center)
                         
-                        NavigationLink(destination:dailyQuizView()
+                        NavigationLink(destination:loansView()
                             .font(.title)
                             .multilineTextAlignment(.center)){
                                 Text("Loans: Fixed-Rate VS. Variable Rates")
@@ -98,7 +98,7 @@ struct finLiteracyView: View {
                         }
                         .toolbar {
                             ToolbarItemGroup(placement: .status) {
-                                NavigationLink(destination: creditVsDebitView()) {
+                                NavigationLink(destination: budgetView()) {
                                     Image("budgetIcon2")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
